@@ -1,3 +1,7 @@
+
+[LAP1.pdf](https://github.com/user-attachments/files/16176973/LAP1.pdf)
+
+
 Command Input:
 
 The program prompts the user to enter a command.
