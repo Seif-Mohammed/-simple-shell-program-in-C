@@ -35,3 +35,8 @@ Background Check: The presence of & at the end of the command is checked to dete
 Process Management: The fork function is used to create child processes for command execution.
 Signal Handling: The signal function sets up a handler for SIGCHLD to log process terminations.
 File Handling: The termination function opens a file in append mode to log terminated child processes.
+
+Note:
+
+The program uses the deprecated gets function, which can lead to buffer overflows. It is recommended to use fgets or a similar safer alternative in production code.
+The logfile.txt must have appropriate permissions to be written by the shell program.
