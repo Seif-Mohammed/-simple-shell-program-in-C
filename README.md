@@ -31,9 +31,13 @@ The export command sets environment variables.
 
 Implementation Details
 Tokenization: The input command line is tokenized using strtok based on spaces.
+
 Background Check: The presence of & at the end of the command is checked to determine if the command should run in the background.
+
 Process Management: The fork function is used to create child processes for command execution.
+
 Signal Handling: The signal function sets up a handler for SIGCHLD to log process terminations.
+
 File Handling: The termination function opens a file in append mode to log terminated child processes.
 
 Note:
